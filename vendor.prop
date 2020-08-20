@@ -1,5 +1,5 @@
 #
-# vendor props for lge flashlmdd
+# vendor props for lge flash-common
 #
 
 # Audio
@@ -12,4 +12,3 @@ ro.vendor.lge.build.target_operator=LAO
 ro.vendor.lge.capp_cupss.op.dir=/product/OP
 ro.vendor.lge.capp_cupss.persistlg.dir=/mnt/vendor/persist-lg
 ro.vendor.lge.capp_cupss.rootdir=/product/OP
-ro.vendor.lge.swversion=V50020k
