@@ -52,6 +52,10 @@ PRODUCT_PACKAGES += \
 # Display
 TARGET_SCREEN_DENSITY := 560
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.lge_msmnile
+
 # Keylayout - Assist
 PRODUCT_COPY_FILES += \
     $(COMMON_FLASH_PATH)/keylayout/Vendor_1004_Product_637a.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1004_Product_637a.kl
