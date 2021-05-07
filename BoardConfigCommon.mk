@@ -32,5 +32,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 107715436544
 # Recovery
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
+# SEPolicy
+BOARD_SEPOLICY_DIRS += $(COMMON_FLASH_PATH)/sepolicy/vendor
+
 # inherit from the proprietary version
 -include vendor/lge/flashlmdd/BoardConfigVendor.mk
